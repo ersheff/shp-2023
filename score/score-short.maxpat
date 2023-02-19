@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 534.0, 159.0, 839.0, 518.0 ],
+		"rect" : [ 429.0, 235.0, 839.0, 518.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -307,7 +307,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 641.0, 26.0, 173.0, 60.0 ],
-					"text" : "SHP of THSEUS\nshort version, 9:00–10:00\n90–100 seconds per image\n6 score images (1-2-3-3-2-1)",
+					"text" : "SHP of THSEUS\nshort version, 9:00–10:00\n90–100 seconds per image\n6 score images (A-B-C-C-B-A)",
 					"textjustification" : 2
 				}
 
@@ -388,7 +388,7 @@
 					"patching_rect" : [ 863.0, 532.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 361.0, 4.0, 24.0, 22.0 ],
-					"text" : "6"
+					"text" : "0"
 				}
 
 			}
@@ -2137,7 +2137,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-201", 0 ],
+					"destination" : [ "obj-201", 1 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
