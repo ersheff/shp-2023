@@ -64,17 +64,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1233.0, 45.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -248,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 423.0, 219.0, 200.0, 150.0 ],
-					"pic" : "SHP9.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 408.0, 176.0, 200.0, 150.0 ]
 				}
@@ -263,7 +252,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 21.0, 219.0, 400.0, 300.0 ],
-					"pic" : "SHP7.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 26.0, 400.0, 300.0 ]
 				}
@@ -1761,7 +1750,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 425.0, 725.0, 200.0, 150.0 ],
-					"pic" : "SHP2.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 330.0, 360.0, 160.0, 120.0 ]
 				}
@@ -1790,7 +1779,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 21.0, 725.0, 200.0, 150.0 ],
-					"pic" : "SHP2.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 360.0, 160.0, 120.0 ]
 				}
@@ -2473,15 +2462,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 1,
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 0,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2496,6 +2476,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -2650,28 +2639,7 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "SHP2.png",
-				"bootpath" : "~/GitHub/shp-2023/score",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SHP7.png",
-				"bootpath" : "~/GitHub/shp-2023/score",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SHP9.png",
-				"bootpath" : "~/GitHub/shp-2023/score",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
