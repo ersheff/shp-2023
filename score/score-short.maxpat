@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 588.0, 62.0, 818.0, 487.0 ],
+		"rect" : [ 396.0, 170.0, 818.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -342,7 +342,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 423.0, 219.0, 200.0, 150.0 ],
-					"pic" : "SHP6.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 408.0, 176.0, 200.0, 150.0 ]
 				}
@@ -357,7 +357,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 21.0, 219.0, 400.0, 300.0 ],
-					"pic" : "SHP9.png",
+					"pic" : "0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 26.0, 400.0, 300.0 ]
 				}
@@ -365,7 +365,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-213",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -618,7 +617,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-144",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -982,7 +980,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1321.5, 350.0, 32.0, 22.0 ],
-					"text" : "+ 90"
+					"text" : "+ 10"
 				}
 
 			}
@@ -1022,7 +1020,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1420,7 +1418,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-120",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -2593,14 +2590,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "SHP6.png",
+				"name" : "SHP10.png",
 				"bootpath" : "~/GitHub/shp-2023/score",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SHP9.png",
+				"name" : "SHP4.png",
+				"bootpath" : "~/GitHub/shp-2023/score",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SHP8.png",
 				"bootpath" : "~/GitHub/shp-2023/score",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
